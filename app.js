@@ -25,7 +25,7 @@ function errorhandler(error){
 }
 
 function btn1listener(){
-    document.body.style.background = "url(https://i1.wp.com/digiday.com/wp-content/uploads/2015/07/minions-banner.png)";
+    // document.body.style.background = "url(https://i1.wp.com/digiday.com/wp-content/uploads/2015/07/minions-banner.png)";
     fetch(constructURL(BananaServerURL, txtareainput.value))
     .then(response => response.json())
     .then(json => {
